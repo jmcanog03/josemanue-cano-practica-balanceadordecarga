@@ -57,3 +57,11 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 ![9º imagen](/Practica2/apache1/clonación%20repositorio.png)
 
 ![10º imagen](/Practica2/apache1/cambiar%20nombre%20a%20repositorio%20clonado%20apache1.png)
+
+*Ahora lo que haremos será editar el document root del host virtual del servidor haciendo una copia del fichero default-ssl.conf con el comando **#sudo cp default-ssl.conf apache1** y editando el fichero con el comando **#sudo nano apache1.conf** y en el document root ponemos **/var/www/html/src** habilitaremos el mod ssl con el comando **#sudo enmod ssl** y reiniciaremos el servicio apache.*
+
+
+![11º imagen](/Practica2/apache1/captura%20trabajo%203%20apache1%20sitio%20virtual.png)
+
+
+![12º imagen](/Practica2/apache1/captura3%20trabajo%20habiltar%20ssl%20apache1.png)
