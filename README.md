@@ -27,8 +27,13 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 
 *Directiva SSLProxyCheckPeerName: esta directiva comprueba el nombre de host de certificados del servidor cunado mod_ssl está actuando como un cliente SSL esta comprobación tendrá éxito si el nombre de host de la petición coincide con unos de los CN del certificado.*
 
+*Estas directivas tuve que añadirlas al fichero ya que el navegador me daba erro con la salida SSL Handshake with remote server*
+
+![3º imagen](/Practica2/error%20server%20apache%20ssl%20handshake2.png)
+
+![4º imagen](/Practica2/error%20server%20apache%20ssl%20handshake.png)
 
 *Una vez echo lo anterior lo que haremos será instalar el paquete snapd con el comando **#sudo apt install snapd** de seguido instalaremos con el comando **#sudo snap install --clasicc certbot** para instalar certbot que es un cliente que se utiliza para solicitar un certificado de let's encrypt e implementarlo en un servidor web una vez instalado crearemos un enlace simbólico para poder usar el comando certbot para ello ponemos el comando **#sudo ln -s /snap/bin/certbot /usr/bin/certbot** una vez echo eso instalaremos el certificado en apache con el comando **#sudo certbot --apache** y contestaremos a las preguntas en la primera pregunta nos dirá si aceptamos los terminos ahí le diremos que si la segunda pregunta que nos hará será si queremos recibir correos para avisarnos de las campañadas montadas por let's encrypt ahí le diremos que no  la tercera pregunta nos preguntara en que host virtual del servidor queremos instalar el certificado en mi caso tuve que seleccionar default-ssl.conf porque no hice la copia antes aunque luego volvi a reinstalar el certificado y seleccionar balanceador.conf pero si la copia y la configuración del sitio virtual esta echo antes elegiremos ese y por ultimo nos preguntara un dominio en mi caso es josema.hopto.org pero para hacer está practica sera necesario que nos registremos en no ip o frenom y creemos un dominio gratuito para está práctica pondremos el dominio esperamos y estara instalado.*
 
 
-![3º imagen](/Practica2/Captura%20trabajo%202%20certbot.png)
+![4º imagen](/Practica2/Captura%20trabajo%202%20certbot.png)
