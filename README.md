@@ -45,7 +45,7 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 
 ![4º imagen](/Practica2/Captura%20trabajo%202%20certbot.png)
 
-*Lo siguiente que haremos para terminar de configurar el balanceador será habiltar los mods de proxy y ssl y el sitio virtual http y reinciar el servicio apache para que todo funcione correctamente.*
+*Lo siguiente que haremos para terminar de configurar el balanceador será habiltar los mods de proxy y ssl y el sitio virtual https y reinciar el servicio apache para que todo funcione correctamente.*
 
 ![5º imagen](/Practica2/captrua%20trabajo%202%20habiltar%20modos%20balanceador1.png)
 
