@@ -27,7 +27,7 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 
 *Directiva SSLProxyCheckPeerName: esta directiva comprueba el nombre de host de certificados del servidor cunado mod_ssl está actuando como un cliente SSL esta comprobación tendrá éxito si el nombre de host de la petición coincide con unos de los CN del certificado.*
 
-**Estas directivas tuve que añadirlas al fichero ya que el navegador me daba error con la salida SSL Handshake with remote server**
+**Estas directivas tuve que añadirlas al fichero ya que el navegador me daba error con la salida SSL Handshake with remote server.**
 
 ![3º imagen](/Practica2/error%20server%20apache%20ssl%20handshake2.png)
 
@@ -37,3 +37,11 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 
 
 ![4º imagen](/Practica2/Captura%20trabajo%202%20certbot.png)
+
+*Lo siguiente que haremos para terminar de configurar el balanceador será habiltar los mods de proxy y ssl y el sitio virtual http y reinciar el servicio apache para que todo funcione correctamente*
+
+![5º imagen](/Practica2/captrua%20trabajo%202%20habiltar%20modos%20balanceador1.png)
+
+![6º imagen](/Practica2/captrua%20trabajo%202%20habiltar%20modos%20balanceador2.png)
+
+![7º imagen](/Practica2/habiltar%20sitio%20virtual%20y%20ssl%20balanceador.png)
