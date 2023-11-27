@@ -83,7 +83,7 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ![15º imagen](/Practica2/apache2/captura%20trabajo%204%20clonar%20repositorio.png)
 
-![16º imagen](/Practica2/apache1/captura3%20trabajo%20habiltar%20ssl%20apache1.png)
+![16º imagen](/Practica2/apache2/ssl%20apache2%20modo%20activado.png)
 
 ![17º imagen](/Practica2/apache2/sito%20virtual%20apache2.png)
 
