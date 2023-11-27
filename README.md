@@ -1,7 +1,14 @@
 # josemanue-cano-practica-balanceadordecarga
-Este repositorio es creado por José Manuel Cano González para el modulo de 2º de ASIR Implementación de Aplicaciones Web
+Este repositorio es creado por José Manuel Cano González para el modulo de 2º de ASIR Implementación de Aplicaciones Web.
 
+## Índice ##
 
+- [configuración_balanceador](#configuración-del-servidor-balanceador)
+- [configuración_apache1](#configuración-del-servidor-apache1)
+- [configuración_apache2](#configuración-del-servidor-apache2)
+- [configuración_servidor_mysql](#configuración-del-servidor-mysql)
+- [resultado_final](#resultado-final)
+- [conclusión](#conclusión)
 
 
 ## INTRODUCCIÓN ##
@@ -49,7 +56,7 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 
 ## Configuración del Servidor Apache1 ##
 
-*Lo primero que vamos a hacer en este servidor es instalar git con el comando **#sudo apt install git**  ahora clonaremos el repositorio para desarollar la aplicación web para ello usarmeos el comando **git clone url del repositorio** la clonación la haremos en el directorio **/var/www/html** y le cambiaremos de nombre con el comando mv*
+*Lo primero que vamos a hacer en este servidor es instalar git con el comando **#sudo apt install git**  ahora clonaremos el repositorio para desarollar la aplicación web para ello usarmeos el comando **git clone url del repositorio** la clonación la haremos en el directorio **/var/www/html** y le cambiaremos de nombre con el comando mv.*
 
 
 ![8º imagen](/Practica2/apache1/captura%20trabajo%20instalar%20git%201.png)
@@ -65,5 +72,81 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 
 ![12º imagen](/Practica2/apache1/captura%20trabajo%203%20apache1%20sitio%20virtual.png)
 
-
 ![13º imagen](/Practica2/apache1/captura3%20trabajo%20habiltar%20ssl%20apache1.png)
+
+
+## Configuración del Servidor Apache2 ##
+
+*En este servidor repetiremos los mismos pasos que en la configuración del servidor apache1.*
+
+![14º imagen](/Practica2/apache2/captura%20server2%20git%20.png)
+
+![15º imagen](/Practica2/apache2/captura%20trabajo%204%20clonar%20repositorio.png)
+
+![16º imagen](/Practica2/apache1/captura3%20trabajo%20habiltar%20ssl%20apache1.png)
+
+![17º imagen](/Practica2/apache2/sito%20virtual%20apache2.png)
+
+
+## Configuración del Servidor MYSQL ##
+
+*Lo primero que haremos será configurar el **archivo 50-server.cnf** que esta en la ruta **/etc/mysql/mariadb.conf.d/** y editamos la línea que pone bin-address y poner la ip del servidor mysql guardamos el fichero y reiniciamos el servicio maraidb con el comando **#sudo service mariadb restart**.*
+
+![18º imagen](/Practica2/datos/bin%20address%20server%20mysql.png)
+
+![19º imagen](/Practica2/datos/reinciar%20servicio%20sql.png)
+
+
+*Ahora haremos el comando scp para pasar el fichero labsuser.pem a la instancia apache1 y desde la maquina apache1 pasaremos el script de la base de daos ubicado en la ruta **/var/www/html/usuarios/db/database.sql** a la instancia datos que es donde esta instalado el servidor mysql y cargaremos la base de datos con el comando **#sudo mysql -u root < database.sql**.*
+
+
+![20º imagen](/Practica2/datos/scp%20maquina%20local%20hacia%20aws%20instancia.png)
+
+![21º imagen](/Practica2/datos/scp%20entre%20dos%20instancias%20aws%20base%20de%20datos.png)
+
+![22º imagen](/Practica2/datos/cargar%20base%20de%20datos%20en%20aws%20datos.png)
+
+*Lo sigueinte que haremos sera crear los usuarios para que accedan a la base de datos he creado dos porque poner 192.168.1.0* no me accedía pero creando dos usuarios no me dejaba asique creamos dos usuarios y le damos permisos sobre la base de datos importada llamada **lamp_db** un usuario se llamara user_db y tendra contraseña josema y otro se llamara josema12 y contraseña josema posteriormente accederemos con ellos para ver que se han creado correctamente y pasaremos al resultado final.*
+
+![23º imagen](/Practica2/datos/crear%20usuario%20maquina%201.png)
+
+![24º imagen](/Practica2/datos/crear%20usuario%20maquina2.png)
+
+![25º imagen](/Practica2/datos/permisos%20maquina2.png)
+
+![26º imagen](/Practica2/datos/acceso%20mysql%20apache1.png)
+
+![27º imagen](/Practica2/datos/acceso%20mysql%20apache2.png)
+
+
+## Resultado Final ##
+
+*El ultimo paso es poner la dirección https://josema.hopto.org y que nos salga la página configurada en el directorio **/var/www/html/usuarios/src**.*
+
+![28º imagen](/Practica2/Resultado%20final.png)
+
+*Ahora insertaremos una fila en la tabla users de la base de datos **lamp_db** y recargaremos la página para ver si se ha agregado una entrada a la web.*
+
+![29º imagen](/Practica2/datos/inserccion%20filas.png)
+
+![30º imagen](/Practica2/datos/resultado%201%20inserccion%20filas.png)
+
+*Por ultimo probaremos a darle al boton add new data y comprobar que la creación ha sido correcta y se refleja recargando la página y se refleja tambien haciendo una consulta a la tabla **users**.*
+
+![32º imagen](/Practica2/datos/inserccion%20desde%20la%20web.png)
+
+![33º imagen](/Practica2/datos/data%20succesfull.png)
+
+![34º imagen](/Practica2/datos/resultado%20final%20web%202.png)
+
+![35º imagen](/Practica2/datos/resultado%20consulta%20tabla%20users.png)
+
+*Con esto ultimo la página esta implementada y funcionado*
+
+
+
+## Conclusión ##
+
+*En esta práctica me ha dado quebradero de cabeza ya que por supuesto nada sale a la 1º pero despúes de todo el finde machacando lo he conseguido una práctica en la que he tenido muchos errores y los he ido solucionando hasta conseguir el resultado final de la práctica*
+
+## Práctica realizada por José Manuel Cano González ##
