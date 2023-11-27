@@ -38,10 +38,22 @@ Este repositorio es creado por José Manuel Cano González para el modulo de 2º
 
 ![4º imagen](/Practica2/Captura%20trabajo%202%20certbot.png)
 
-*Lo siguiente que haremos para terminar de configurar el balanceador será habiltar los mods de proxy y ssl y el sitio virtual http y reinciar el servicio apache para que todo funcione correctamente*
+*Lo siguiente que haremos para terminar de configurar el balanceador será habiltar los mods de proxy y ssl y el sitio virtual http y reinciar el servicio apache para que todo funcione correctamente.*
 
 ![5º imagen](/Practica2/captrua%20trabajo%202%20habiltar%20modos%20balanceador1.png)
 
 ![6º imagen](/Practica2/captrua%20trabajo%202%20habiltar%20modos%20balanceador2.png)
 
 ![7º imagen](/Practica2/habiltar%20sitio%20virtual%20y%20ssl%20balanceador.png)
+
+
+## Configuración del Servidor Apache1 ##
+
+*Lo primero que vamos a hacer en este servidor es instalar git con el comando **#sudo apt install git**  ahora clonaremos el repositorio para desarollar la aplicación web para ello usarmeos el comando **git clone url del repositorio** la clonación la haremos en el directorio **/var/www/html** y le cambiaremos de nombre con el comando mv*
+
+
+![8º imagen](/Practica2/apache1/captura%20trabajo%20instalar%20git%201.png)
+
+![9º imagen](/Practica2/apache1/clonación%20repositorio.png)
+
+![10º imagen](/Practica2/apache1/cambiar%20nombre%20a%20repositorio%20clonado%20apache1.png)
