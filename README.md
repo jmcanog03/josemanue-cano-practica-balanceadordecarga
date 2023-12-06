@@ -146,6 +146,7 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 ## Instalación de Wordpress ##
 
 *Lo primero que haremos será crear la base de datos y el usuario en el servidor mysql y le daremos acceso a la base de datos que hemos creado para wordpress*
+
 ![36ºimagen](<crear base de datos wordpress.png>)
 ![37ºimagen](<crear usuario wordpress mysql.png>)
 ![38ºimagen](<privilegios usuario de base de datos.png>)
