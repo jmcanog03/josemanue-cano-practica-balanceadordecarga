@@ -177,6 +177,12 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ![45ºimagen](wordpress/elegir%20nombre%20del%20sitio%20.png)
 
+*Ahora nos dira que hemos creado el usuario se ha conectado correctamente y luego intenaremos acceder a ese usuario admin para que se nos abra el panel de administración*
+
+![46ºimagen](wordpress/usuario%20admin%20creado.png)
+![47ºimagen](wordpress/acceso%20a%20wordpress.png)
+![48ºimagen](wordpress/panel%20de%20admin%20wordpress.png)
+
 
 ## Conclusión ##
 
