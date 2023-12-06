@@ -147,9 +147,9 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 *Lo primero que haremos será descargar wordpress en los servidores apache*
 
-![Alt text](/josemanue-cano-practica-balanceadordecarga/wordpress/descagar%20wordpress%20en%20www%201.png)
+![36ºimagen](<descagar wordpress en www 1-1.png>)
 
-
+![37ºimagen](<descagar wordpress en www 2-1.png>)
 ## Conclusión ##
 
 *En esta práctica me ha dado quebradero de cabeza ya que por supuesto nada sale a la 1º pero después de todo el finde machacando lo he conseguido una práctica en la que he tenido muchos errores y los he ido solucionando hasta conseguir el resultado final de la práctica he aprendido en esta práctica a buscarme la vida y solucionar errores que me han ido saliendo por ejemplo uno de ellos ha sido cuando la página no me cargaba porque para mostrar la página tenían que acceder los servidores de back_end a la base de datos práctica no muy fácil pero tampoco muy difícil.*
