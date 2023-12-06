@@ -147,9 +147,9 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ## Instalación de Wordpress ##
 
-Lo primero que haremos será descargar wordpress en los servidores apache
+*Lo primero que haremos será descargar wordpress en los servidores apache*
 
-![35º imagen](/josemanue-cano-practica-balanceadordecarga/Practica2/wordpress/descagar%20wordpress%20en%20www%201.png)
+
 
 
 ## Conclusión ##
