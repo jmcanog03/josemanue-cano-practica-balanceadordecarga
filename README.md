@@ -170,7 +170,7 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 *A continuación lo que haremos será conectarnos a la ip pública del servidor apache1 ya que el dominio no es capaz de instalar wordpress y no se porque solo me ha dejado accediendo a la ip pública del servidor*
 
-![44ºimagen](</josemanue-cano-practica-balanceadordecarga/wordpress/elegir idoma wordpress.png>)
+![44ºimagen](<wordpress/elegir idoma wordpress.png>)
 
 ## Conclusión ##
 
