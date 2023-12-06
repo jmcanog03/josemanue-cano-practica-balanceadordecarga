@@ -8,7 +8,7 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 - [configuración_apache2](#configuración-del-servidor-apache2)
 - [configuración_servidor_mysql](#configuración-del-servidor-mysql)
 - [resultado_final](#resultado-final)
-- [resultado_final](#instalación-de-wordpressl)
+- [Instalación Wordpress](#instalación-de-wordpressl)
 - [conclusión](#conclusión)
 
 
