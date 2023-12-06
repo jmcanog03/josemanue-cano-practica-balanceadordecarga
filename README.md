@@ -8,6 +8,7 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 - [configuración_apache2](#configuración-del-servidor-apache2)
 - [configuración_servidor_mysql](#configuración-del-servidor-mysql)
 - [resultado_final](#resultado-final)
+- [resultado_final](#instalación-de-wordpressl)
 - [conclusión](#conclusión)
 
 
@@ -142,6 +143,14 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 ![35º imagen](/Practica2/datos/resultado%20consulta%20tabla%20users.png)
 
 *Con esto ultimo la página esta implementada y funcionado*
+
+
+## Instalación de Wordpress ##
+
+Lo primero que haremos será descargar wordpress en los servidores apache
+
+![36º imagen](/josemanue-cano-practica-balanceadordecarga/Practica2/Instalación%20Wordpress/descagar%20wordpress%20en%20www%201.png)
+![37º imagen](/josemanue-cano-practica-balanceadordecarga/Practica2/Instalación%20Wordpress/descagar%20wordpress%20en%20www%202.png)
 
 
 ## Conclusión ##
