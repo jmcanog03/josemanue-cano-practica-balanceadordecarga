@@ -172,6 +172,11 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ![44ºimagen](<wordpress/elegir idoma wordpress.png>)
 
+
+*Lo siguiente que nos preguntara es poner el nombre del siito un usuario y contraseña para el admin y un correo eléctronico luego la casilla ultima que dice que no indexemos la página eso lo quedamos desmarcad*
+
+![45ºimagen](wordpress/elegir%20nombre%20del%20sitio%20.png)
+
 ## Conclusión ##
 
 *En esta práctica me ha dado quebradero de cabeza ya que por supuesto nada sale a la 1º pero después de todo el finde machacando lo he conseguido una práctica en la que he tenido muchos errores y los he ido solucionando hasta conseguir el resultado final de la práctica he aprendido en esta práctica a buscarme la vida y solucionar errores que me han ido saliendo por ejemplo uno de ellos ha sido cuando la página no me cargaba porque para mostrar la página tenían que acceder los servidores de back_end a la base de datos práctica no muy fácil pero tampoco muy difícil.*
