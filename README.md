@@ -117,7 +117,7 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ![26º imagen](/Practica2/datos/acceso%20mysql%20apache1.png)
 
-![27º imagen](/Practica2/datos/acceso%20mysql%20apache2.png)
+![27º imagen](Practica2/datos/aeceso%20mysql%20apache2.png)
 
 
 ## Resultado Final ##
@@ -173,9 +173,10 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 ![44ºimagen](<wordpress/elegir idoma wordpress.png>)
 
 
-*Lo siguiente que nos preguntara es poner el nombre del siito un usuario y contraseña para el admin y un correo eléctronico luego la casilla ultima que dice que no indexemos la página eso lo quedamos desmarcad*
+*Lo siguiente que nos preguntara es poner el nombre del siito un usuario y contraseña para el admin y un correo eléctronico luego la casilla ultima que dice que no indexemos la página eso lo quedamos desmarcado*
 
 ![45ºimagen](wordpress/elegir%20nombre%20del%20sitio%20.png)
+
 
 ## Conclusión ##
 
