@@ -145,11 +145,29 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ## Instalación de Wordpress ##
 
-*Lo primero que haremos será descargar wordpress en los servidores apache*
+*Lo primero que haremos será crear la base de datos y el usuario en el servidor mysql y le daremos acceso a la base de datos que hemos creado para wordpress*
+
+![36ºimagen](/josemanue-cano-practica-balanceadordecarga/crear%20base%20de%20datos%20wordpress.png)
+
+![36ºimagen](/josemanue-cano-practica-balanceadordecarga/crear%20usuario%20wordpress%20mysql.png)
+
+![36ºimagen](/josemanue-cano-practica-balanceadordecarga/privilegios%20usuario%20de%20base%20de%20datos.png)
+
+
+*Lo segundo que haremos será descargar wordpress en los servidores apache*
 
 ![36ºimagen](<descagar wordpress en www 1-1.png>)
 
 ![37ºimagen](<descagar wordpress en www 2-1.png>)
+
+*Lo siguiente que haremos será descomprimir la carpeta latest que contendra una carpeta llamada wordpress*
+
+![38ºimagen](<descomprimir carpeta apache1.png>)
+
+![39ºimagen](<descomprimir carpeta apache2.png>)
+
+
+
 ## Conclusión ##
 
 *En esta práctica me ha dado quebradero de cabeza ya que por supuesto nada sale a la 1º pero después de todo el finde machacando lo he conseguido una práctica en la que he tenido muchos errores y los he ido solucionando hasta conseguir el resultado final de la práctica he aprendido en esta práctica a buscarme la vida y solucionar errores que me han ido saliendo por ejemplo uno de ellos ha sido cuando la página no me cargaba porque para mostrar la página tenían que acceder los servidores de back_end a la base de datos práctica no muy fácil pero tampoco muy difícil.*
