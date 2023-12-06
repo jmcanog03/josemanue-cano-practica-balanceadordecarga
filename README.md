@@ -164,7 +164,13 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ![42ºimagen](<descomprimir carpeta apache2.png>)
 
+*Ahora cambiaremos el document root de los sitios virtuales de apache*
 
+![43ºimagen](<cambiar document root apaches.png>)
+
+*A continuación lo que haremos será conectarnos a la ip pública del servidor apache1 ya que el dominio no es capaz de instalar wordpress y no se porque solo me ha dejado accediendo a la ip pública del servidor*
+
+![44ºimagen](</josemanue-cano-practica-balanceadordecarga/wordpress/elegir idoma wordpress.png>)
 
 ## Conclusión ##
 
