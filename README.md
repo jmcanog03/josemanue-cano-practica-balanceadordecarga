@@ -136,8 +136,6 @@ Este repositorio es creado por José Manuel Cano González para el módulo de 2�
 
 ![32º imagen](/Practica2/datos/inserccion%20desde%20la%20web.png)
 
-![33º imagen](/Practica2/datos/data%20succesfull.png)
-
 ![34º imagen](/Practica2/datos/resultado%20final%20web%202.png)
 
 ![35º imagen](/Practica2/datos/resultado%20consulta%20tabla%20users.png)
